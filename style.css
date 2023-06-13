@@ -96,6 +96,9 @@ h1{
     display: inline-block;
     z-index: +1;
 }
+#contact p{
+    margin-left: 0px;
+}
 .insta{
     margin-left: 140px;
 }
