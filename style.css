@@ -116,3 +116,8 @@ h1{
 .skill{
     clear: left;
 }
+@media (max-width:600px){
+    .hero p{
+        font-size: 20px;
+    }
+}
