@@ -61,6 +61,10 @@ h1{
     position: relative;
     padding-top: 10px;
 }
+.about h1{
+    padding-left: 0px;
+    padding-right: 0px;
+}
 #me img{
     position: relative;
     display: inline-block;
@@ -84,20 +88,19 @@ h1{
 }
 #contact p{
     font-family:'Times new roman';
-    font-size: 25px;
+    font-size: 20px;
 }
 #contact li{
     font-family:'Times new roman';
     font-size: 25px;
 }
-
+#contact p{
+    margin-left: 0px;
+}
 #contact img{
     position: absolute;
     display: inline-block;
     z-index: +1;
-}
-#contact p{
-    margin-left: 0px;
 }
 .insta{
     margin-left: 140px;
@@ -109,4 +112,7 @@ h1{
 .twi{
     margin-top: 80px;
     margin-left: 145px;
+}
+.skill{
+    clear: left;
 }
