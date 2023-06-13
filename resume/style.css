@@ -1,0 +1,114 @@
+#projects{
+    background-color: #F9F9FA;
+    background-size: cover;
+}
+
+.topbackground {
+    background: linear-gradient(48deg, #ffd89b,#19547b);
+}
+.fixed-top{
+    background-color: white;
+}
+
+
+.hero p{
+    font-weight: bolder;
+    font-family: "alice";
+    font-size: 40px;
+    padding-right: 0px;
+    padding-left:15px;
+    margin-bottom: 80px;
+}
+.hero img{
+    margin-top: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+h1{
+    font-family: 'copperplate gothic';
+    margin-top: 60px;
+}
+#projects li{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style-type: none;
+}
+.card{
+    margin-bottom: 20px;
+}
+.bg{
+    position: absolute;
+    z-index: -1;
+    opacity: 5%;
+}
+#work li{
+    margin-left: 30px;
+    font-family:'Times new roman';
+    font-size: 25px;
+
+}
+.card p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+#me p{
+    font-family:'Times new roman';
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.about{
+    position: relative;
+    padding-top: 10px;
+}
+#me img{
+    position: relative;
+    display: inline-block;
+    
+}
+.luffy{
+    margin-top: -40px;
+    height: 130px;
+}
+.coffe{
+    transform: rotate(30deg);
+    height: 80px;
+    width: 40px;
+}
+.wings{
+    height: 150px;
+}
+
+#me{
+    background-color: #F9F9FA;
+}
+#contact p{
+    font-family:'Times new roman';
+    font-size: 25px;
+}
+#contact li{
+    font-family:'Times new roman';
+    font-size: 25px;
+}
+#contact{
+    margin-left: 50px;
+}
+#contact img{
+    position: absolute;
+    display: inline-block;
+    z-index: +1;
+}
+.insta{
+    margin-left: 140px;
+}
+.link{
+    margin-top: 45px;
+    margin-left: 150px;
+}
+.twi{
+    margin-top: 80px;
+    margin-left: 145px;
+}
+.skill{
+    clear: left;
+}
