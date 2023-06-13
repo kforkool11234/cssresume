@@ -90,9 +90,7 @@ h1{
     font-family:'Times new roman';
     font-size: 25px;
 }
-#contact{
-    margin-left: 50px;
-}
+
 #contact img{
     position: absolute;
     display: inline-block;
@@ -108,7 +106,4 @@ h1{
 .twi{
     margin-top: 80px;
     margin-left: 145px;
-}
-.skill{
-    clear: left;
 }
