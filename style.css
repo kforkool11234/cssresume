@@ -17,7 +17,6 @@
     font-size: 40px;
     padding-right: 0px;
     padding-left:15px;
-    margin-bottom: 80px;
 }
 .hero img{
     margin-top: 100px;
@@ -55,31 +54,36 @@ h1{
 #me p{
     font-family:'Times new roman';
     font-size: 25px;
-    margin-bottom: 0px;
+    margin-left: 20px;
 }
 .about{
     position: relative;
     padding-top: 10px;
 }
 .about h1{
+    margin-left: 20px;
     padding-left: 0px;
     padding-right: 0px;
 }
 #me img{
     position: relative;
     display: inline-block;
-    
 }
 .luffy{
+    float: right;
+    width: 120px;
     margin-top: -40px;
     height: 130px;
 }
 .coffe{
+    float: left;
     transform: rotate(30deg);
+    margin-right: 15px;
     height: 80px;
     width: 40px;
 }
 .wings{
+    float: right;
     height: 150px;
 }
 
@@ -87,6 +91,7 @@ h1{
     background-color: #F9F9FA;
 }
 #contact p{
+    display: inline-block;
     font-family:'Times new roman';
     font-size: 20px;
 }
@@ -113,11 +118,14 @@ h1{
     margin-top: 80px;
     margin-left: 145px;
 }
-.skill{
-    clear: left;
+#me h1{
+    margin-left: 30px!important;
 }
-@media (max-width:600px){
+@media (max-width:700px){
     .hero p{
         font-size: 20px;
+    }
+    p, li{
+        font-size: 20px!important;
     }
 }
